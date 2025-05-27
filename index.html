@@ -11,20 +11,25 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-    <div class="container-fluid d-flex justify-content-between">
-      <div><a class="navbar-brand text-light" href="#"><i class="fa-brands fa-bootstrap"></i>Bootstrap</a></div>
-      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Collapsible content -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link text-light" href="#">Link</a>
           </li>
           <li class="nav-item dropdown">
@@ -32,7 +37,7 @@
               data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li>
@@ -42,16 +47,13 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled text-secondary" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-        <!-- <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
       </div>
     </div>
   </nav>
+
   <!-- second page -->
 
   <div class="container-fluid d-flex justify-content-center p-5 bg-dark gap-5 flex-wrap">
@@ -118,88 +120,141 @@
   </div>
   <!-- image card -->
   <div class="container-fluid bg-dark p-3 text-center text-light">
-        <h1>Our Interation</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio provident mollitia eius laborum sed natus, inventore nesciunt quidem nihil non perferendis rerum! Ut ab doloribus itaque nesciunt, ullam aspernatur ratione reiciendis incidunt inventore tenetur quam. Doloremque debitis fugiat quo.</p>
-        <div class="card-group text-dark gap-2 ">
-          <div class="card">
-            <img src="./Maya.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Maya</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text m-3"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-github"></i></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./avantika.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Avantika</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text m-3"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-github"></i></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./raj.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Raj</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text m-3"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-github"></i></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./siddharth.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
-            <div class="card-body">
-              <h5 class="card-title">Siddharth</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-github"></i></p>
-            </div>
-          </div>
+    <h1>Our Interation</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio provident mollitia eius laborum sed
+      natus, inventore nesciunt quidem nihil non perferendis rerum! Ut ab doloribus itaque nesciunt, ullam aspernatur
+      ratione reiciendis incidunt inventore tenetur quam. Doloremque debitis fugiat quo.</p>
+    <div class="card-group text-dark gap-2 ">
+      <div class="card">
+        <img src="./Maya.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">Maya</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-github"></i>
+          </p>
+
         </div>
+      </div>
+      <div class="card">
+        <img src="./avantika.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">Avantika</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-github"></i>
+          </p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="./raj.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">Raj</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-github"></i>
+          </p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="./siddharth.jpeg" class="card-img-top rounded-circle p-5" alt="oops" width="100px" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">Siddharth</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-instagram me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+            <i class="fa-brands fa-github"></i>
+          </p>
+
+        </div>
+      </div>
+    </div>
   </div>
 
-<!-- last -->
+  <!-- last -->
 
-<div class="container-fluid ">
-  <p class="card-text fs-4 text-center m-3"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-google"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-github"></i></p>
-  <div class=" container-fluid d-flex justify-content-center p-5 align-items-center flex-column flex-lg-row gap-3">
-    <h5>Sign Up to Know more details</h5>
-    <input class="form-control me-2" type="search" placeholder="Enter E-mail ID" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Subscribe</button>
+  <div class="container-fluid ">
+    <p class="card-text fs-4 text-center m-3 d-flex justify-content-center gap-3">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-google"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-github"></i>
+    </p>
+
+    <div class=" container-fluid d-flex justify-content-center p-5 align-items-center flex-column flex-lg-row gap-3">
+      <h5>Sign Up to Know more details</h5>
+      <input class="form-control me-2" type="search" placeholder="Enter E-mail ID" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Subscribe</button>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quo assumenda praesentium facilis odit doloribus
+      sit, dicta ea vel delectus eligendi quidem fuga voluptatem numquam modi nostrum doloremque deleniti incidunt
+      ratione voluptate provident harum aliquam commodi. Similique voluptates id quia.</p>
+    <div class="container py-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col">
+          <h5 class="text-uppercase">Shopping</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">Frequently asked Questions</a></li>
+            <li><a href="#">Where we deliver?</a></li>
+            <li><a href="#">Delivery</a></li>
+            <li><a href="pricing">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5 class="text-uppercase">Gift Cards</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">Frequently asked Questions</a></li>
+            <li><a href="#">Delivery and Payment</a></li>
+            <li><a href="#">Activate the Card</a></li>
+            <li><a href="rules">Rules</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5 class="text-uppercase">Company</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">Buy a Gift Card</a></li>
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Return Me</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5 class="text-uppercase">Diamond Club</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">About Program</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Application</a></li>
+            <li><a href="rules">Rules</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
   </div>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, quo assumenda praesentium facilis odit doloribus sit, dicta ea vel delectus eligendi quidem fuga voluptatem numquam modi nostrum doloremque deleniti incidunt ratione voluptate provident harum aliquam commodi. Similique voluptates id quia.</p>
-  <div class="d-flex justify-content-between
-  ">
-  
-    <div><ul class="list-unstyled mb-0">
-      <h5 class="text-uppercase">Shopping</h5>
-      <li><a href="">Frequently asked Question</a></li>
-      <li><a href="">where we deliver?</a></li>
-      <li><a href="">delivery</a></li>
-      <li><a href="pricing"></a></li>
-    </ul></div>
-    
-    <div><ul class="list-unstyled mb-0">
-      <h5 class="text-uppercase">Git Cards</h5>
-      <li><a href="">Frequently asked Question</a></li>
-      <li><a href="">delivery and payment</a></li>
-      <li><a href="">activate the card</a></li>
-      <li><a href="rules"></a></li>
-    </ul></div>
-    <div><ul class="list-unstyled mb-0">
-      <h5 class="text-uppercase">Company</h5>
-      <li><a href="">buy a gift card</a></li>
-      <li><a href="">our history</a></li>
-      <li><a href="">return me</a></li>
-      <li><a href="contact"></a></li>
-    </ul></div>
-    <div><ul class="list-unstyled mb-0">
-      <h5 class="text-uppercase">diamond club</h5>
-      <li><a href="">about program</a></li>
-      <li><a href="">registration</a></li>
-      <li><a href="">application</a></li>
-      <li><a href="rules"></a></li>
-    </ul></div>
-  </div>
-</div>
 
 
 
